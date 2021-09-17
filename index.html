@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muestra de Primitivas+DOM</title>
+    <link rel="stylesheet" href="css/ejs3.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--Links de bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Preguntas</title>
+</head>
+<body>
+   <form style="font:normal 16px sans-serif">
+<p>¿Cual es el rio ma grande del mundo?</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta1" id="p11"> Amazonas</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p12"> Nilo</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p13"> Bravo</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p14"> Amarillo</p>
+ 
+<p>¿Cual es el nombre del actual presidente?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p21"> Vicente Fox</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta2" id="p22"> Andres Manuel</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta2" id="p23"> Enrique peña</p>
+
+ 
+<p>¿Cuál es el país con más habitantes del mundo? </p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p31"> Estados Unidos</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta3" id="p32"> Rusia</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta3" id="p33"> China</p>
+
+ 
+<p>¿Cual es el oceano mas grande del mundo?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p41"> Atlantico</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta4" id="p42"> Antartico</p>
+<p onclick="this.style.color='#00FF00'"><input type="radio" name="pregunta4" id="p44"> Pacifico</p>
+<p>¿Cual es el planeta mas grande del sistema solar?</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p22"> Jupiter</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p52"> Tierra</p>
+<p onclick="this.style.color='#FF0000'"><input type="radio" name="pregunta1" id="p53"> Marte</p>
+
+
+<p><input type="button" value="Fin de la encuesta" onclick="resultado()"/></p>
+</form>
+    
+    <script src="funcion.js"></script>
+</body>
+</html>
